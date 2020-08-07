@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<style>
+#logo {
+	vertical-align:middle;
+}
+.sidenav {
+  height: 100%;
+  width: 450px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #28b498 ;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color:white;
+  font-weight: lighter;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.navbar-brand b {
+	display:block;
+	font-size:400%;
+	line-height:3;
+}
+.navbar-nav {
+	margin-left:20px;
+	  padding: 20px;
+	
+}
+.h12{
+display: block;
+    font-size: 2.50em;
+    margin-right:300px;
+    margin-block-start: 4.88em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+color: white;
+}
+.h5{
+text-align: center;
+ letter-spacing: 0px;
+font-weight:lighter;
+color: white;
+}
+
+.h1 {
+     max-width: 100%;
+   color: #202121;
+   text-align: center;
+   font-weight: bold;
+    margin: 0 0 16px;
+  
+}
+.h3 {    
+  max-width: 300%;
+       text-align: center;
+    color: #555a59;
+    font-size: 0.950rem;
+     font-weight:lighter;
+        letter-spacing: 0;
+    margin: 0 0 16px;
+    }
+.row1{
+
+    text-align:center;
+    margin:0 auto;
+
+}
+input[type=text] {
+  width: 200%;
+  border-radius: 25px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+    border: none;
+    background-color:#eef5f3;
+  display: block;
+   
+}
+
+input[type]:focus {
+  background-color:white;
+}
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+
+.in1{
+box-sizing: border-box;
+    width: 200%;
+    height: 40px;
+    background: #eef5f3;
+    outline: 0;
+        line-height: 10px;
+    border: none;
+    font-size: .875rem;
+    border-radius: 20px;
+    color: #88908e;
+    padding: 0 16px;
+    -webkit-transition: background .3s;
+    transition: background .3s
+}
+
+.in2{
+box-sizing: border-box;
+    width: 200%;
+    height: 40px;
+    background: #eef5f3;
+    outline: 0;
+    border: none;
+    line-height: 10px;
+    font-size: .875rem;
+    border-radius: 20px;
+    color: #88908e;
+    padding: 0 16px;
+    -webkit-transition: background .3s;
+    transition: background .3s
+}
+.btnn{
+      width: 200px;
+    height: 40px;
+    color:white;
+    font-size:12px;
+    font-weight:bold;
+    background-color: #28b498;
+    border-radius: 30px;
+    text-align: center;
+    margin: 40px 0;
+      cursor: pointer;
+    border:#28b498;
+      
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.field-icon {
+  margin-right: -180px;
+  margin-top: -27px;
+  color:grey;
+   position: absolute;
+  cursor: pointer;
+  right: 0.2rem;
+  z-index: 5;
+}
+.field-icon:hover {
+    color: #28b498;
+}
+.btn{
+      width: 200px;
+    height: 40px;
+     font-size:12px;
+    background-color: white;
+    border-radius: 30px;
+    border:none;
+
+}
+.btn:hover{
+color:#28b498;
+}
+.or{
+        font-size:10px;
+
+}
+</style>
+<link rel="stylesheet" href="first.css">
+
+</head>
+<body>
+ <div id="mySidenav" class="sidenav">
+   <a href="https://diprella.com/" class="closebtn" onclick="closeNav()">X</a>
+<h1 class="h12">New Here?</h1>
+<h5 class="h5">Sign up and discover a great<br> amount of new opportunities!</h5>
+
+ <button onclick="location.href='https://diprella.com/sign-up';" class="btn">Sign Up</button>
+</div> 
+<nav class="navbar navbar-expand-md bg- navbar-"> 
+  <!-- Brand --> 
+ <a href="#" class="navbar-left"><img id="logo" src="images/logo.png" width="105" height="45"></a>
+ 
+</nav>	
+    <div class="row-2"></div>
+        <div class="container">
+    
+ <div class="col-md-6">
+<h1 class="h1">Login to Your Account</h1>
+    <h3 class="h3">Login using social networks</h3>
+    <div class="container">
+    <div class="row1">
+     <div class="col-md-12">
+    <a href="https://www.facebook.com/" target="_blank" class="btn-social btn-facebook"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.google.com/" target="_blank" class="btn-social btn-google-plus"><i class="fa fa-google-plus"></i></a>
+    <a href="https://www.linkedin.com/login/" target="_blank" class="btn-social btn-linkedin"><i class="fa fa-linkedin"></i></a>    
+ </div>       
+</div>
+</div>
+<div class="row">
+ <div class="col-md-3"></div>
+    <div class="col-md-3"><hr></div>
+    <div class="or" class="col-md-0">OR</div>
+    <div class="col-md-3"><hr></div>
+</div>
+
+    <form>
+<div class="col-md-6"></div>
+  <input type="text" class="in1"id="fname" name="fname" placeholder="Email" required/>
+  <input type="password" class="in2" id="password-field"  name="lname" placeholder="Password" required>
+  <div class="col-md-12">
+  
+<span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+</div>
+</form>
+<div></div>
+<div class=col-md-12>          
+ <button onclick="location.href='https://diprella.com/sign-in';" class="btnn">Sign In</button>
+
+         </div>
+            </div>
+              </div>         
+            
+    <script type="text/javascript">
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+    </body>
+</html>
